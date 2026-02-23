@@ -1,0 +1,216 @@
+{
+  "researcher_id": "11111111-1111-1111-1111-111111111111",
+
+  "site": {
+    "site_name": "Pennhurst State School and Hospital",
+    "official_site_url": "https://pennhurstasylum.com",
+    "country": "US",
+    "region": "Pennsylvania",
+    "city": "Spring City",
+    "address": "1 Pennhurst Road, Spring City, PA 19475",
+    "notes": "Former state institution for people with intellectual disabilities; now operates as haunted attraction and history tours."
+  },
+
+  "aliases": [
+    "Pennhurst Asylum",
+    "Pennhurst State School",
+    "Eastern Pennsylvania State Institution"
+  ],
+
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/history",
+      "title": "Pennhurst – History & About",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [
+        {
+          "capture_ts": "2025-08-15T14:22:00Z",
+          "kind": "screenshot",
+          "http_status": 200,
+          "file_path": "captures/pennhurst/history_20250815.png",
+          "content_hash": "a3f1c2d4e5b6a7f8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2",
+          "text_excerpt": "Pennhurst State School and Hospital opened in 1908 as the Eastern Pennsylvania State Institution for the Feeble-Minded and Epileptic.",
+          "notes": "Full-page screenshot, 1920×4800px",
+          "evidence": [
+            {
+              "rule": "R1",
+              "evidence_type": "r1_institution_history",
+              "evidence_date": null,
+              "access_date": "2025-08-15",
+              "description": "Official site documents institutional history from 1908 opening through 1987 closure, establishing qualifying institution status."
+            }
+          ]
+        }
+      ],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/tickets",
+      "title": "Pennhurst – Tickets & Booking",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [
+        {
+          "capture_ts": "2025-08-15T14:35:00Z",
+          "kind": "screenshot",
+          "http_status": 200,
+          "file_path": "captures/pennhurst/tickets_20250815.png",
+          "content_hash": "b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5",
+          "text_excerpt": "General Admission $35 · VIP Fast Pass $55. Purchase online or at the door. Season runs September 27 through November 2, 2025.",
+          "notes": null,
+          "evidence": [
+            {
+              "rule": "R2",
+              "evidence_type": "r2_ticket_booking",
+              "evidence_date": null,
+              "access_date": "2025-08-15",
+              "description": "Online ticket portal confirms paid public access: General Admission $35, VIP $55."
+            },
+            {
+              "rule": "R2",
+              "evidence_type": "r2_calendar_season",
+              "evidence_date": null,
+              "access_date": "2025-08-15",
+              "description": "2025 season explicitly listed as September 27 – November 2, confirming scheduled programming window."
+            }
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2025-08-15",
+          "description": "Official ticket page constitutes authoritative R3 official web presence confirming active commercial operation."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/ghost-tours",
+      "title": "Pennhurst – Ghost Tours",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [
+        {
+          "capture_ts": "2025-08-15T14:50:00Z",
+          "kind": "pdf",
+          "http_status": 200,
+          "file_path": "captures/pennhurst/ghost_tours_20250815.pdf",
+          "content_hash": "c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6",
+          "text_excerpt": "Guided ghost tours run year-round on Friday and Saturday evenings. Tours last 90 minutes and explore Ward 4 and the Quaker Building.",
+          "notes": "PDF print of tour page",
+          "evidence": [
+            {
+              "rule": "R2",
+              "evidence_type": "r2_authorization",
+              "evidence_date": null,
+              "access_date": "2025-08-15",
+              "description": "Year-round guided ghost tours with explicit schedule (Fri/Sat evenings) confirm authorized paid public programming."
+            }
+          ]
+        }
+      ],
+      "evidence": []
+    }
+  ],
+
+  "tv_episodes": [
+    {
+      "show_name": "Ghost Adventures",
+      "season_number": 5,
+      "episode_number": 1,
+      "episode_title": "Pennhurst Asylum",
+      "air_date": "2010-10-01",
+      "synopsis": "Zak Bagans and crew investigate Ward 4 and the Quaker Building at Pennhurst, reporting shadow figures and unexplained voices.",
+      "channel": "Travel Channel",
+      "viewers": 1840000,
+      "imdb_rating": 8.2,
+      "imdb_quantity": 312
+    },
+    {
+      "show_name": "Ghost Hunters",
+      "season_number": 8,
+      "episode_number": 14,
+      "episode_title": "The Asylum",
+      "air_date": "2012-09-12",
+      "synopsis": "TAPS team investigates Pennhurst's main building, capturing EVP recordings in the former infirmary wing.",
+      "channel": "Syfy",
+      "viewers": 1520000,
+      "imdb_rating": 7.4,
+      "imdb_quantity": 189
+    }
+  ],
+
+  "youtube_videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=EXAMPLE_VID_001",
+      "video_title": "Pennhurst Asylum OVERNIGHT Ghost Hunt (terrifying)",
+      "channel_name": "Exploring With Josh",
+      "upload_date": "2023-10-28",
+      "view_count": 2180000,
+      "like_count": 54200,
+      "comment_count": 3710,
+      "description_text": "We spent the night inside the abandoned wards of Pennhurst Asylum and captured some of the scariest footage of our careers.",
+      "duration": "PT42M17S",
+      "category": "Entertainment",
+      "channel_subscribers": 3400000
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EXAMPLE_VID_002",
+      "video_title": "Pennhurst State School – A History of Abuse and Neglect",
+      "channel_name": "Atrocity Tourism",
+      "upload_date": "2022-06-14",
+      "view_count": 890000,
+      "like_count": 31400,
+      "comment_count": 2105,
+      "description_text": "A documentary-style breakdown of Pennhurst's dark history, the 1968 Suffer the Little Children exposé, and its closure in 1987.",
+      "duration": "PT58M04S",
+      "category": "Education",
+      "channel_subscribers": 720000
+    }
+  ],
+
+  "review_profiles": [
+    {
+      "platform_id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+      "profile_url": "https://www.tripadvisor.com/Attraction_Review-g000000-d000000-Reviews-Pennhurst_Asylum.html",
+      "documents": [
+        {
+          "source": "review",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g000000-d000000-Reviews-Pennhurst_Asylum.html",
+          "title": "Pennhurst Asylum – TripAdvisor Reviews",
+          "publisher": "TripAdvisor",
+          "published_date": null,
+          "captures": [
+            {
+              "capture_ts": "2025-08-15T15:10:00Z",
+              "kind": "screenshot",
+              "http_status": 200,
+              "file_path": "captures/pennhurst/tripadvisor_20250815.png",
+              "content_hash": "d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7",
+              "text_excerpt": "4.5 stars · 1,842 reviews. 'Absolutely terrifying and historically fascinating.' – Reviewed October 2024.",
+              "notes": "Captured aggregate rating panel and top 10 reviews",
+              "evidence": [
+                {
+                  "rule": "R3",
+                  "evidence_type": "r3_review_ecosystem",
+                  "evidence_date": null,
+                  "access_date": "2025-08-15",
+                  "description": "TripAdvisor profile shows 1,842 reviews and 4.5-star aggregate rating, confirming robust third-party review ecosystem presence."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
