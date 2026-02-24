@@ -1,8 +1,7 @@
 /**
  * Supabase Edge Function: ingest-site
  *
- * Accepts a POST request whose body is the ingest_site payload (JSON),
- * calls the ingest_site Postgres RPC, and returns the result.
+ * Calls ingest_site() via a direct Postgres connection, bypassing PostgREST.
  *
  * Deploy:
  *   supabase functions deploy ingest-site --no-verify-jwt
@@ -12,14 +11,10 @@
  *     -H "Authorization: Bearer <service_role_key>" \
  *     -H "Content-Type: application/json" \
  *     -d @payloads/example_ingest_site.json
- *
- * Environment variables (auto-provided by Supabase runtime):
- *   SUPABASE_URL
- *   SUPABASE_SERVICE_ROLE_KEY
  */
 
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
-import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+import postgres from "https://deno.land/x/postgresjs@v3.4.4/mod.js";
 
 const corsHeaders: Record<string, string> = {
   "Access-Control-Allow-Origin": "*",
@@ -29,7 +24,6 @@ const corsHeaders: Record<string, string> = {
 };
 
 serve(async (req: Request): Promise<Response> => {
-  // Handle CORS preflight
   if (req.method === "OPTIONS") {
     return new Response("ok", { headers: corsHeaders });
   }
@@ -45,7 +39,6 @@ serve(async (req: Request): Promise<Response> => {
     return json({ ok: false, error: "Invalid JSON body" }, 400);
   }
 
-  // Basic guard: researcher_id is required
   if (
     typeof payload !== "object" ||
     payload === null ||
@@ -54,27 +47,23 @@ serve(async (req: Request): Promise<Response> => {
     return json({ ok: false, error: "Missing required field: researcher_id" }, 400);
   }
 
-  const supabaseUrl = Deno.env.get("SUPABASE_URL");
-  const serviceRoleKey = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY");
-
-  if (!supabaseUrl || !serviceRoleKey) {
-    return json({ ok: false, error: "Server misconfiguration: missing env vars" }, 500);
+  const dbUrl = Deno.env.get("SUPABASE_DB_URL");
+  if (!dbUrl) {
+    return json({ ok: false, error: "Server misconfiguration: missing SUPABASE_DB_URL" }, 500);
   }
 
-  const supabase = createClient(supabaseUrl, serviceRoleKey, {
-    auth: { persistSession: false },
-  });
+  const sql = postgres(dbUrl, { max: 1 });
 
-  const { data, error } = await supabase.rpc("ingest_site", { payload });
-
-  if (error) {
-    // Supabase client-level error (network, auth, etc.)
-    return json({ ok: false, error: error.message, detail: error.details }, 500);
+  try {
+    const rows = await sql`SELECT ingest_site(${sql.json(payload)}) AS result`;
+    const data = rows[0].result;
+    const status = data?.ok === false ? 500 : 200;
+    return json(data, status);
+  } catch (err) {
+    return json({ ok: false, error: err instanceof Error ? err.message : String(err) }, 500);
+  } finally {
+    await sql.end();
   }
-
-  // The RPC itself returns { ok, site_id } or { ok: false, error, sqlstate }
-  const status = data?.ok === false ? 500 : 200;
-  return json(data, status);
 });
 
 function json(body: unknown, status = 200): Response {
