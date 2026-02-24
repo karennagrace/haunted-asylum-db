@@ -412,12 +412,9 @@ curl -X POST https://yyhdksrmxxerijfvuraa.supabase.co/functions/v1/ingest-site \
 
 Expect: `{"ok": true, "site_id": "<uuid>"}`.
 
-### Step 4 — Add captures later
-When you have taken screenshots or PDFs:
-1. Compute the SHA-256 hash of each file: `sha256sum file.png`
-2. Add the capture entry to the document's `captures` array in the payload
-3. Move evidence from the document-level `evidence` array into the capture's `evidence` array
-4. Re-run the same curl command — the site and documents upsert safely, captures are added
+### Step 4 — Add captures
+When you have taken screenshots or PDFs, use `add_captures.py` (see section below).
+The script handles SHA-256 hashing and DB upserts automatically.
 
 ### Step 5 — Commit
 ```bash
@@ -479,6 +476,33 @@ Do not commit mapping.json files — they live alongside the captures on disk.
 
 **Python location:** `C:\Users\K\AppData\Local\Programs\Python\Python312\python.exe`
 **Dependencies:** `psycopg2-binary`, `python-dotenv` (already installed)
+
+### Sites ingested and captures synced
+
+| Site | site_id | Captures synced |
+|---|---|---|
+| Trans-Allegheny Lunatic Asylum | *(query DB)* | 14 PDFs across 2026-02-16 and 2026-02-18 |
+| Pennhurst Asylum | `8166f2d3-2360-4e18-8ea4-dd5c8bf803b7` | None yet |
+
+### Trans-Allegheny mapping.json (for reference)
+```json
+{
+  "talaghosttours":    "https://trans-alleghenylunaticasylum.com/ghost-tours/",
+  "talahauntedhouse":  "https://trans-alleghenylunaticasylum.com/haunted-house/",
+  "talaheritagetours": "https://trans-alleghenylunaticasylum.com/historic-tours/",
+  "talahomepage":      "https://trans-alleghenylunaticasylum.com/",
+  "talaschedule":      "https://trans-alleghenylunaticasylum.com/schedule-of-events/",
+  "talafaq":           "https://trans-alleghenylunaticasylum.com/faq/",
+  "talahistory1":      "https://trans-alleghenylunaticasylum.com/explore-our-history/",
+  "talahistory2":      "https://trans-alleghenylunaticasylum.com/the-pre-asylum-era/",
+  "talahistory3":      "https://trans-alleghenylunaticasylum.com/dorothea-dix-2/",
+  "talahistory4":      "https://trans-alleghenylunaticasylum.com/the-kirkbride-plan/",
+  "talahistory5":      "https://trans-alleghenylunaticasylum.com/the-civil-war/",
+  "www_facebook_com_TALAWV_reviews": "https://www.facebook.com/TALAWV/reviews/",
+  "www_tripadvisor_com_Attraction_Review-g59638-d1049077": "https://www.tripadvisor.com/Attraction_Review-g59638-d1049077-Reviews-Trans_Allegheny_Lunatic_Asylum-Weston_West_Virginia.html",
+  "www_yelp_com_biz_trans_allegheny_lunatic_asylum_weston": "https://www.yelp.com/biz/trans-allegheny-lunatic-asylum-weston"
+}
+```
 
 ---
 
