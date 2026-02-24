@@ -437,7 +437,8 @@ haunted-asylum-db/
 │   └── 02_rpc_ingest_site.sql               # ingest_site() function definition
 ├── payloads/
 │   ├── example_ingest_site.json              # Full annotated example (Pennhurst test)
-│   └── pennhurst_asylum.json                 # Real Pennhurst ingestion payload
+│   ├── pennhurst_asylum.json                 # Real Pennhurst ingestion payload
+│   └── trans_allegheny_lunatic_asylum.json   # Trans-Allegheny payload (matches DB)
 ├── scripts/
 │   └── add_captures.py                       # Syncs local PDF captures to the database
 └── supabase/
@@ -481,7 +482,7 @@ Do not commit mapping.json files — they live alongside the captures on disk.
 
 | Site | site_id | Captures synced |
 |---|---|---|
-| Trans-Allegheny Lunatic Asylum | *(query DB)* | 14 PDFs across 2026-02-16 and 2026-02-18 |
+| Trans-Allegheny Lunatic Asylum | `d361b615-d8f6-4f54-a9e1-aa85452183b5` | 14 PDFs across 2026-02-16 and 2026-02-18 |
 | Pennhurst Asylum | `8166f2d3-2360-4e18-8ea4-dd5c8bf803b7` | None yet |
 
 ### Trans-Allegheny mapping.json (for reference)

@@ -1,0 +1,365 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+
+  "site": {
+    "site_name": "Trans-Allegheny Lunatic Asylum",
+    "official_site_url": "https://trans-alleghenylunaticasylum.com/",
+    "country": "US",
+    "region": "West Virginia",
+    "city": "Weston",
+    "address": "50 S River Ave, Weston, WV 26452",
+    "notes": "Former psychiatric hospital in Weston, WV (originally Weston State Hospital), built 1858-1881 on the Kirkbride plan; now operates as a heritage/paranormal tourism site with history tours, ghost tours, and overnight ghost hunts. Strong example of a former institutional/psychiatric site marketed through haunting narratives."
+  },
+
+  "aliases": [
+    "TALA",
+    "West Virginia Hospital for the Insane",
+    "Weston State Hospital"
+  ],
+
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/dorothea-dix-2/",
+      "title": "Dorothea Dix (1802-1887)",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/explore-our-history/",
+      "title": "Explore Our History",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/the-civil-war/",
+      "title": "The Civil War",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/the-kirkbride-plan/",
+      "title": "The Kirkbride Plan",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/the-pre-asylum-era/",
+      "title": "The Pre-Asylum Era",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/ghost-tours/",
+      "title": "Ghost Tours",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/haunted-house/",
+      "title": "Haunted House",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/historic-tours/",
+      "title": "Heritage & History Tours",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/faq/",
+      "title": "FAQ",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "rules_faq_waiver",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/schedule-of-events/",
+      "title": "Schedule of Events",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "schedule_calendar",
+      "captures": [],
+      "evidence": []
+    },
+    {
+      "source": "official",
+      "url": "https://trans-alleghenylunaticasylum.com/",
+      "title": "Trans-Allegheny Lunatic Asylum",
+      "publisher": "Trans-Allegheny Lunatic Asylum",
+      "published_date": null,
+      "official_category": "other",
+      "captures": [],
+      "evidence": []
+    }
+  ],
+
+  "tv_episodes": [
+    {
+      "show_name": "Ghost Hunters",
+      "season_number": 4,
+      "episode_number": 9,
+      "episode_title": "Haunted Asylum",
+      "air_date": "2008-05-21",
+      "synopsis": "In a TAPS team first, the team travels to West Virginia to investigate the Weston State Hospital, once one of the largest psychiatric hospitals in the country.",
+      "channel": "Syfy",
+      "viewers": null,
+      "imdb_rating": 7.6,
+      "imdb_quantity": 32
+    },
+    {
+      "show_name": "Ghost Stories",
+      "season_number": 1,
+      "episode_number": 1,
+      "episode_title": "Trans-Allegheny",
+      "air_date": "2009-10-16",
+      "synopsis": "The one-hour series premiere tells the tales of Trans-Allegheny Lunatic Asylum, which is reportedly haunted by a little girl named Lilly who is still looking for her mommy after her death. The first half of the episode explores an old abandoned train tunnel called the \"Flinderation Tunnel\", also in Weston, West Virginia.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": null,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Ghost Adventures",
+      "season_number": 3,
+      "episode_number": 1,
+      "episode_title": "Trans-Allegheny Lunatic Asylum",
+      "air_date": "2009-10-30",
+      "synopsis": "The Ghost Adventures crew gets locked inside the Trans-Allegheny Lunatic Asylum for their first-ever live paranormal investigation.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 7.3,
+      "imdb_quantity": 107
+    },
+    {
+      "show_name": "Paranormal Challenge",
+      "season_number": 1,
+      "episode_number": 7,
+      "episode_title": "Trans-Allegheny Lunatic Asylum",
+      "air_date": "2011-07-22",
+      "synopsis": "Two teams from West Virginia go head to head: Appalachee Paranormal (Tony, Jeff, and Matt) and G.A.L.S. Paranormal (Ghosts, Apparitions, and Lost Souls) (Jackie, Mandy, and Stacey) investigate the Trans-Allegheny Lunatic Asylum, a former psychiatric hospital that is believed to be one of the country's most haunted sites.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": null,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Ghost Adventures: Aftershocks",
+      "season_number": 1,
+      "episode_number": 5,
+      "episode_title": "Yorktown Hospital and Trans-Allegheny Lunatic Asylum",
+      "air_date": "2014-09-20",
+      "synopsis": "In the second half of this episode, Zak reviewed some evidence from GA's only live event, from 2009, of the Trans-Allegheny Lunatic Asylum. Also, there was a few moments from the show, Paranormal Challenge, that was shown to Rebecca Gleason. Unlike the Yorktown Hospital situation, the asylum's reputation grew in popularity, after both the GA's and Paranormal Challenge episodes were aired. Overall, it has become an attraction for ghost-hunting enthusiasts every weekend. Some time, after the two episodes were aired, a spirit named \"Big Jim\" has supposedly came into prominence in the asylum. Trans-Allegheny Lunatic Asylum interviewees: Rebecca Gleason (owner), \"Copperhead\" (employee), and Paul Cipar (employee).",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 6.6,
+      "imdb_quantity": 18
+    },
+    {
+      "show_name": "Ghost Hunters",
+      "season_number": 9,
+      "episode_number": 25,
+      "episode_title": "200th Episode: Grant is Back",
+      "air_date": "2014-10-22",
+      "synopsis": "Grant comes back and joins the crew.",
+      "channel": "Syfy",
+      "viewers": null,
+      "imdb_rating": 8.6,
+      "imdb_quantity": 36
+    },
+    {
+      "show_name": "Paranormal Lockdown",
+      "season_number": 1,
+      "episode_number": 1,
+      "episode_title": "Trans-Allegheny Lunatic Asylum",
+      "air_date": "2016-03-04",
+      "synopsis": "For 72 hours, Nick and Katrina confine themselves in the Trans-Allegheny Lunatic Asylum in Weston, West Virginia, including Ward F, the Women's Auxiliary Building and the Medical Building's morgue. For Katrina, it's her first time inside Trans-Allegheny Lunatic Asylum, the enormous, abandoned and haunted facility in West Virginia. For Nick, it is a return to the place where he had one of his most profound paranormal experiences.",
+      "channel": "Destination America",
+      "viewers": 0.39,
+      "imdb_rating": 8.7,
+      "imdb_quantity": 89
+    },
+    {
+      "show_name": "Portals to Hell",
+      "season_number": 1,
+      "episode_number": 6,
+      "episode_title": "Trans-Allegheny Lunatic Asylum",
+      "air_date": "2019-05-31",
+      "synopsis": "Jack and Katrina venture inside the imposing stone walls of a notoriously haunted hospital in Weston, West Virginia, that housed thousands of mentally ill patients over a dark 130-year-old history. Their investigation uncovers mind-blowing truths.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 8.1,
+      "imdb_quantity": 50
+    },
+    {
+      "show_name": "Destination Fear",
+      "season_number": 2,
+      "episode_number": 12,
+      "episode_title": "Trans-Allegheny Lunatic Asylum",
+      "air_date": "2020-12-05",
+      "synopsis": "The team heads to West Virginia to explore the most haunted asylum in America. Dakota has doubts about their ability to combat the bloodthirsty souls lurking in the shadows of the cursed property, but Tanner believes they are up for the challenge.",
+      "channel": "Travel Channel",
+      "viewers": 0.39,
+      "imdb_rating": 8.6,
+      "imdb_quantity": 67
+    },
+    {
+      "show_name": "Conjuring Kesha",
+      "season_number": 1,
+      "episode_number": 6,
+      "episode_title": "Decent into Madness",
+      "air_date": "2022-08-05",
+      "synopsis": "Kesha and rapper Big Freedia face their worst fears at Trans-Allegheny Lunatic Asylum. The building comes to life overnight, spurring violent activity and revealing disturbing truths. Psychic Chip Coffey joins them in hopes of setting the spirits free.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 7.4,
+      "imdb_quantity": 25
+    },
+    {
+      "show_name": "Expedition X",
+      "season_number": 8,
+      "episode_number": 1,
+      "episode_title": "The Madhouse",
+      "air_date": "2024-08-14",
+      "synopsis": "Josh, Phil and Heather investigate what may be the most haunted building in America: the Trans-Allegheny Lunatic Asylum, where thousands died after disturbing medical procedures. It's said their angry ghosts roam its now-abandoned halls.",
+      "channel": "Discovery Channel",
+      "viewers": null,
+      "imdb_rating": 7.5,
+      "imdb_quantity": 60
+    },
+    {
+      "show_name": "Ghosts Off Grid",
+      "season_number": 1,
+      "episode_number": 13,
+      "episode_title": "Trans-Allegheny Lunatic Asylum Pt. 1",
+      "air_date": "2024-11-26",
+      "synopsis": "Johnny and Jordyn travel to Weston, West Virginia to explore the Trans-Allegheny Lunatic Asylum, one of the most haunted locations in America. The setting once housed the worst experiments from lobotomies to solitary confinement and housed everyone from mistaken mental patients to cold blooded killers. The guys have the place to themselves for three nights and decide to make the most of it.",
+      "channel": "Quest TV",
+      "viewers": null,
+      "imdb_rating": null,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Ghosts Off Grid",
+      "season_number": 1,
+      "episode_number": 14,
+      "episode_title": "Trans-Allegheny Lunatic Asylum Pt. 2",
+      "air_date": "2024-12-03",
+      "synopsis": "Jordyn and Johnny continue their paranormal investigation of the Trans-Allegheny Asylum in Weston, West Virginia. As their time there continues, the stories of hauntings are validated leaving the guys more convinced than ever before in the presence of paranormal.",
+      "channel": "Quest TV",
+      "viewers": null,
+      "imdb_rating": null,
+      "imdb_quantity": null
+    }
+  ],
+
+  "youtube_videos": [],
+
+  "review_profiles": [
+    {
+      "platform_id": "6dcb0833-aaa9-40b8-bb9a-a9725efa96d8",
+      "profile_url": "https://www.facebook.com/TALAWV/reviews/",
+      "documents": [
+        {
+          "source": "review",
+          "url": "https://www.facebook.com/TALAWV/reviews/",
+          "title": "Facebook reviews - Trans-Allegheny Lunatic Asylum",
+          "publisher": "Facebook",
+          "published_date": null,
+          "captures": [],
+          "evidence": [
+            {
+              "rule": "R3",
+              "evidence_type": "r3_review_ecosystem",
+              "evidence_date": "2026-02-18",
+              "access_date": "2026-02-19",
+              "description": "Facebook review profile captured as PDF (rating/volume/recency evidence)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform_id": "27136a13-65da-4e03-995e-e60c33cecd10",
+      "profile_url": "https://www.tripadvisor.com/Attraction_Review-g59638-d1049077-Reviews-Trans_Allegheny_Lunatic_Asylum-Weston_West_Virginia.html",
+      "documents": [
+        {
+          "source": "review",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g59638-d1049077-Reviews-Trans_Allegheny_Lunatic_Asylum-Weston_West_Virginia.html",
+          "title": "TripAdvisor reviews - Trans-Allegheny Lunatic Asylum",
+          "publisher": "TripAdvisor",
+          "published_date": null,
+          "captures": [],
+          "evidence": [
+            {
+              "rule": "R3",
+              "evidence_type": "r3_review_ecosystem",
+              "evidence_date": "2026-02-18",
+              "access_date": "2026-02-19",
+              "description": "TripAdvisor review profile captured as PDF (rating/volume/recency evidence)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "platform_id": "71d104c1-b450-4f8e-ad2c-d7be3b8920a3",
+      "profile_url": "https://www.yelp.com/biz/trans-allegheny-lunatic-asylum-weston",
+      "documents": [
+        {
+          "source": "review",
+          "url": "https://www.yelp.com/biz/trans-allegheny-lunatic-asylum-weston",
+          "title": "Yelp reviews - Trans-Allegheny Lunatic Asylum",
+          "publisher": "Yelp",
+          "published_date": null,
+          "captures": [],
+          "evidence": [
+            {
+              "rule": "R3",
+              "evidence_type": "r3_review_ecosystem",
+              "evidence_date": "2026-02-18",
+              "access_date": "2026-02-19",
+              "description": "Yelp review profile captured as PDF (rating/volume/recency evidence)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
