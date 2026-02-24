@@ -208,7 +208,7 @@ Evidence can be attached at two levels:
 
 | researcher_id | Notes |
 |---|---|
-| `36339282-36e1-41b8-ad8b-bba0fff72e64` | Primary researcher (Karen) |
+| `36339282-36e1-41b8-ad8b-bba0fff72e64` | Primary researcher (Karenna) |
 
 ---
 
@@ -441,11 +441,44 @@ haunted-asylum-db/
 ├── payloads/
 │   ├── example_ingest_site.json              # Full annotated example (Pennhurst test)
 │   └── pennhurst_asylum.json                 # Real Pennhurst ingestion payload
+├── scripts/
+│   └── add_captures.py                       # Syncs local PDF captures to the database
 └── supabase/
     └── functions/
         └── ingest-site/
             └── index.ts                      # Edge Function (Deno/TypeScript)
 ```
+
+---
+
+## Adding Captures (add_captures.py)
+
+Captures live at: `C:\Users\K\Documents\PhD\Captures\[sitename]\[date]\[filename].pdf`
+
+**Run from Windows terminal (cmd or PowerShell):**
+```
+C:\Users\K\AppData\Local\Programs\Python\Python312\python.exe C:\Users\K\haunted-asylum-db\scripts\add_captures.py --site trans-allegheny --date 2026-02-16
+```
+
+**What it does:**
+1. Finds all PDFs in the date folder
+2. Looks up the site's documents from the database
+3. For unrecognised filenames, shows a numbered list of documents and asks you to assign one
+4. Saves the filename → document URL assignment to `mapping.json` in the site folder (never asks again for the same filename)
+5. Computes SHA-256 hash of each PDF
+6. Upserts the capture row — safe to re-run
+
+**Dry run (no DB writes):**
+```
+... add_captures.py --site trans-allegheny --date 2026-02-16 --dry-run
+```
+
+**mapping.json** is stored at `Documents/PhD/Captures/[sitename]/mapping.json`.
+Format: `{ "filename_stem": "https://document-url" }`
+Do not commit mapping.json files — they live alongside the captures on disk.
+
+**Python location:** `C:\Users\K\AppData\Local\Programs\Python\Python312\python.exe`
+**Dependencies:** `psycopg2-binary`, `python-dotenv` (already installed)
 
 ---
 
