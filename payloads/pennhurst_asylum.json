@@ -1,0 +1,192 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+
+  "site": {
+    "site_name": "Pennhurst Asylum",
+    "official_site_url": "https://pennhurstasylum.com",
+    "country": "US",
+    "region": "Pennsylvania",
+    "city": "Spring City",
+    "address": "601 North Church Street, Spring City, PA 19475",
+    "notes": "Former Eastern Pennsylvania State Institution for the Feeble-Minded and Epileptic (1908–1987). Now operates as haunted attraction, paranormal investigation venue, and daytime historical tour site. Major disability rights case site (Halderman v. Pennhurst, 1977)."
+  },
+
+  "aliases": [
+    "Pennhurst State School and Hospital",
+    "Pennhurst State School",
+    "Eastern Pennsylvania State Institution",
+    "Eastern Pennsylvania State Institution for the Feeble-Minded and Epileptic"
+  ],
+
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/visit/",
+      "title": "Pennhurst Asylum – Visit / Daytime Historical Tours",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-23",
+          "description": "Official site's visit/history page documents institutional history from 1908 opening through 1987 closure and current heritage tourism operation."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-23",
+          "description": "Official visit page confirms active daytime historical programming distinct from seasonal haunted attraction."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/tickets/",
+      "title": "Pennhurst Asylum – Tickets",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-23",
+          "description": "Official ticket purchase page confirms paid public access to the site."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/tours-events/",
+      "title": "Pennhurst Asylum – Tours & Events",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-23",
+          "description": "Tours & Events page lists paranormal investigations, ghost tours, and historical tours as authorized paid programming."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://pennhurstasylum.com/faq/",
+      "title": "Pennhurst Asylum – FAQ",
+      "publisher": "Pennhurst Asylum LLC",
+      "published_date": null,
+      "official_category": "rules_faq_waiver",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-23",
+          "description": "FAQ page outlines rules, waiver requirements, and visitor policies confirming structured authorized access."
+        }
+      ]
+    }
+  ],
+
+  "tv_episodes": [
+    {
+      "show_name": "Ghost Adventures",
+      "season_number": 3,
+      "episode_number": 1,
+      "episode_title": "Pennhurst State School and Hospital",
+      "air_date": "2009-11-06",
+      "synopsis": "Zak Bagans and crew investigate the abandoned wards of Pennhurst State School and Hospital, reporting shadow figures, disembodied voices, and unexplained physical contact.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 7.8,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Ghost Hunters",
+      "season_number": 7,
+      "episode_number": 2,
+      "episode_title": "Pennsylvania Asylum",
+      "air_date": "2011-03-03",
+      "synopsis": "The TAPS team investigates Pennhurst State School and Hospital, capturing EVP recordings and reporting unexplained activity in the former patient wards.",
+      "channel": "Syfy",
+      "viewers": null,
+      "imdb_rating": 6.3,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "World's Biggest Ghost Hunt: Pennhurst Asylum",
+      "season_number": 0,
+      "episode_number": 0,
+      "episode_title": "World's Biggest Ghost Hunt: Pennhurst Asylum",
+      "air_date": "2019-10-30",
+      "synopsis": "Five paranormal investigators are locked inside Pennhurst Asylum for two weeks in what was billed as the longest continuously filmed paranormal investigation in television history.",
+      "channel": "A&E",
+      "viewers": null,
+      "imdb_rating": 5.7,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Destination Fear",
+      "season_number": 1,
+      "episode_number": 10,
+      "episode_title": "Pennhurst State School",
+      "air_date": "2019-12-28",
+      "synopsis": "Dakota Laden and team spend the night alone inside Pennhurst State School, confronting its dark institutional history and reported paranormal activity.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 8.3,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Paranormal Caught on Camera",
+      "season_number": 3,
+      "episode_number": 7,
+      "episode_title": "Pennhurst Asylum and More",
+      "air_date": "2020-08-23",
+      "synopsis": "Experts analyze purported paranormal footage captured at Pennhurst Asylum alongside other locations.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 7.1,
+      "imdb_quantity": null
+    },
+    {
+      "show_name": "Portals to Hell",
+      "season_number": 2,
+      "episode_number": 15,
+      "episode_title": "Pennhurst Asylum",
+      "air_date": "2021-04-17",
+      "synopsis": "Jack Osbourne and Katrina Weidman investigate Pennhurst Asylum, exploring the site's history of abuse and its reputation as one of America's most haunted locations.",
+      "channel": "Travel Channel",
+      "viewers": null,
+      "imdb_rating": 7.7,
+      "imdb_quantity": null
+    }
+  ],
+
+  "youtube_videos": [],
+
+  "review_profiles": [
+    {
+      "platform_id": "27136a13-65da-4e03-995e-e60c33cecd10",
+      "profile_url": "https://www.tripadvisor.com/Attraction_Review-g53733-d5226405-Reviews-Pennhurst_Asylum-Spring_City_Pennsylvania.html",
+      "documents": []
+    },
+    {
+      "platform_id": "71d104c1-b450-4f8e-ad2c-d7be3b8920a3",
+      "profile_url": "https://www.yelp.com/biz/pennhurst-asylum-spring-city-2",
+      "documents": []
+    }
+  ]
+}
