@@ -238,7 +238,7 @@ def main():
     finally:
         conn.close()
 
-    print(f"\n{'─'*40}")
+    print("\n" + "-"*40)
     if args.dry_run:
         print(f"Dry run complete. {inserted} would be inserted, {skipped} skipped.")
     else:
