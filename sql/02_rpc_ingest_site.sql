@@ -60,13 +60,13 @@ BEGIN
 
   -- ===========================================================================
   -- 2. ALIASES
-  -- Assumption: text column is alias_name. Adjust to match your schema.
+  -- Assumption: text column is alias. Adjust to match your schema.
   -- ===========================================================================
   FOR d_idx IN 0 .. COALESCE(jsonb_array_length(payload->'aliases'), 0) - 1
   LOOP
-    INSERT INTO site_aliases (site_id, alias_name)
+    INSERT INTO site_aliases (site_id, alias)
     VALUES (v_site_id, payload->'aliases'->>d_idx)
-    ON CONFLICT (site_id, alias_name) DO NOTHING;
+    ON CONFLICT (site_id, alias) DO NOTHING;
   END LOOP;
 
   -- ===========================================================================

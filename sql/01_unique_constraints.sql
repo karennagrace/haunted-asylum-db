@@ -13,10 +13,9 @@ ALTER TABLE sites
 
 -- -----------------------------------------------------------------------------
 -- site_aliases
--- Assumption: the text column is named alias_name. Adjust if yours differs.
 -- -----------------------------------------------------------------------------
 ALTER TABLE site_aliases
-  ADD CONSTRAINT uq_site_aliases UNIQUE (site_id, alias_name);
+  ADD CONSTRAINT uq_site_aliases UNIQUE (site_id, alias);
 
 -- -----------------------------------------------------------------------------
 -- documents
