@@ -1,0 +1,126 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Acadia Ranch Museum",
+    "official_site_url": "https://oraclehistoricalsociety.org",
+    "country": "US",
+    "region": "Arizona",
+    "city": "Oracle",
+    "address": null,
+    "notes": "Historic ranch with TB-era health retreat/sanatorium function, now operated as a museum by the Oracle Historical Society. Ghost hunts and paranormal tours are conducted exclusively by third-party operators (Haunted Rooms, Ghost Hunters Adventures, Wicked City Ghost Tours). Be explicit in coding: 'sanatorium' framing comes from tour operators, not the museum itself. Mixed status: museum is open for daytime visits; ghost hunts are via partners."
+  },
+  "aliases": [
+    "Acadia Ranch Sanatorium",
+    "Acadia Ranch Tuberculosis Sanitarium",
+    "Mountain View Hotel"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://oraclehistoricalsociety.org/",
+      "title": "Oracle Historical Society",
+      "publisher": "Oracle Historical Society",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Oracle Historical Society official site documents the institutional and historical context of Acadia Ranch as a TB-era health and retreat site."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage of the museum operator confirms active heritage tourism operation at Acadia Ranch."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.hauntedrooms.com/arizona/ghost-hunts/acadia-ranch-sanatorium",
+      "title": "Acadia Ranch Sanatorium Ghost Hunts – Haunted Rooms",
+      "publisher": "Haunted Rooms",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party operator Haunted Rooms lists and sells ticketed ghost hunt events at Acadia Ranch Sanatorium, confirming paid public paranormal access."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://ghosthuntersadventures.com/acadia-ranch",
+      "title": "Acadia Ranch – Ghost Hunters Adventures",
+      "publisher": "Ghost Hunters Adventures",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party paranormal tour operator Ghost Hunters Adventures sells ticketed events at Acadia Ranch, confirming paid public access."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.visitoracle.org/science-history",
+      "title": "Oracle Science and History – Visit Oracle",
+      "publisher": "Visit Oracle",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Local tourism board covers the scientific and historical significance of Acadia Ranch and its health-retreat history."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party tourism coverage of Acadia Ranch as a heritage attraction in Oracle, AZ."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.wickedcityghosttours.com/event-details/acadia-ranch-tuberculosis-sanitarium-ghost-tour-with-overnight-option-6",
+      "title": "Acadia Ranch Tuberculosis Sanitarium Ghost Tour – Wicked City Ghost Tours",
+      "publisher": "Wicked City Ghost Tours",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wicked City Ghost Tours sells ticketed ghost tours with overnight option at Acadia Ranch, confirming paid public paranormal access via third-party operator. Note: 'tuberculosis sanitarium' framing is from this operator."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

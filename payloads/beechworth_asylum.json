@@ -1,0 +1,145 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Beechworth Asylum",
+    "official_site_url": "https://www.asylumghosttours.com",
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Beechworth",
+    "address": null,
+    "notes": "Former Beechworth Lunatic Asylum (est. 1867), later Mayday Hills Mental Health Centre (closed 1995). Ghost and history tours currently operated by Asylum Ghost Tours. The Mayday Hills Project (maydayhills.org.au) provides strong institutional history content via academic/heritage project pages — excellent for cross-text comparison of ghost tour rhetoric vs. disability history framing. Also hosts AsylumFest events."
+  },
+  "aliases": [
+    "Mayday Hills Hospital",
+    "Beechworth Lunatic Asylum",
+    "Mayday Hills Mental Health Centre",
+    "Mayday Hills"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.asylumghosttours.com/",
+      "title": "Asylum Ghost Tours",
+      "publisher": "Asylum Ghost Tours",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official tour operator homepage confirms active ghost and history tour programming at the former Beechworth Asylum / Mayday Hills."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.asylumghosttours.com/tours",
+      "title": "Tours",
+      "publisher": "Asylum Ghost Tours",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official tours page lists authorized paid tour programming including history tours at Beechworth Asylum."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.asylumghosttours.com/ghost-tours",
+      "title": "Ghost Tours",
+      "publisher": "Asylum Ghost Tours",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official ghost tours booking page confirms paid public access for nighttime ghost tour programming at Beechworth Asylum."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Beechworth_Asylum",
+      "title": "Beechworth Asylum – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as Beechworth Lunatic Asylum from 1867 through closure as Mayday Hills Mental Health Centre in 1995."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic coverage confirming public awareness and heritage significance of Beechworth Asylum."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.visitvictoria.com/regions/high-country/see-and-do/tours/walking-tours/asylum-ghost-tours/night-time-ghost-tours",
+      "title": "Night-time Ghost Tours at Beechworth Asylum – Visit Victoria",
+      "publisher": "Visit Victoria",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Victorian state tourism board lists Beechworth Asylum ghost tours as an authorized visitor product, confirming sanctioned public dark tourism access."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "State tourism board coverage of Beechworth Asylum nighttime ghost tours."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://maydayhills.org.au/history/some-background/",
+      "title": "Some Background – Mayday Hills Project",
+      "publisher": "Mayday Hills Project",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Mayday Hills heritage/academic project provides institutional history of the site, offering a disability-history counterpoint to ghost tour framing."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

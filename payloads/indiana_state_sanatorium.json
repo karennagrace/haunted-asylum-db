@@ -1,0 +1,112 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "The Sanatorium",
+    "official_site_url": "https://thesanatorium.net",
+    "country": "US",
+    "region": "Indiana",
+    "city": "Rockville",
+    "address": null,
+    "notes": "Former Indiana State Tuberculosis Sanatorium (est. ~1907), later repurposed for other institutional uses. Now operates as a paranormal investigation and dark tourism venue offering day roam tours, flashlight tours, and paranormal investigations. Third-party operators including Haunted Rooms and Haunted Nights Events host events on site. Site relies heavily on Facebook for current scheduling; keep a separate capture plan for social posts."
+  },
+  "aliases": [
+    "Indiana State Tuberculosis Hospital",
+    "Indiana State Sanatorium",
+    "Rockville Sanatorium"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://thesanatorium.net/",
+      "title": "The Sanatorium",
+      "publisher": "The Sanatorium",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active dark tourism operation at the former Indiana State Sanatorium."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://thesanatorium.net/paranormal",
+      "title": "Paranormal",
+      "publisher": "The Sanatorium",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official paranormal programming page confirms authorized paid paranormal investigation and day-roam access to the site."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://thesanatorium.net/pages/history/",
+      "title": "History",
+      "publisher": "The Sanatorium",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official history page documents the site's origin as the Indiana State Tuberculosis Sanatorium and subsequent institutional history."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.hauntedrooms.com/indiana/ghost-hunts/indiana-state-sanatorium",
+      "title": "Indiana State Sanatorium Ghost Hunts – Haunted Rooms",
+      "publisher": "Haunted Rooms",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party operator Haunted Rooms lists and sells ticketed ghost hunt events at Indiana State Sanatorium, confirming paid public access."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.hauntednightsevents.com/event-details/indiana-state-sanatorium-1-11",
+      "title": "Indiana State Sanatorium – Haunted Nights Events",
+      "publisher": "Haunted Nights Events",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party event operator Haunted Nights Events lists ticketed paranormal investigation events at Indiana State Sanatorium. Note: event-specific URL; verify current availability."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

@@ -1,0 +1,128 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Willow Court Asylum",
+    "official_site_url": "https://willowcourtasylum.com.au",
+    "country": "AU",
+    "region": "Tasmania",
+    "city": "New Norfolk",
+    "address": null,
+    "notes": "Former Royal Derwent Hospital and associated precinct at New Norfolk, Tasmania. One of Australia's oldest and largest psychiatric institutions, with history dating to 1827 (New Norfolk Asylum). Later known as Lachlan Park Hospital, then Royal Derwent Hospital (closed 2000). The historic precinct now operates ghost walks and paranormal investigations as Willow Court Asylum. Recognized as an International Site of Conscience. Public controversy around paranormal tourism framing at this significant disability rights and psychiatric care history site is well documented and useful for ethical analysis."
+  },
+  "aliases": [
+    "Royal Derwent Hospital",
+    "Willow Court Historic Precinct",
+    "Lachlan Park Hospital",
+    "New Norfolk Asylum",
+    "Willow Court"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://willowcourtasylum.com.au/tours/",
+      "title": "Tours",
+      "publisher": "Willow Court Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official tours page confirms authorized paid ghost walk and paranormal investigation programming at the Willow Court precinct."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official tours page confirms active tourism operation at the former Royal Derwent Hospital precinct."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://willowcourtasylum.com.au/ghost-tour/",
+      "title": "Ghost Tour",
+      "publisher": "Willow Court Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official ghost tour booking page confirms paid public access for ghost walk programming."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Royal_Derwent_Hospital",
+      "title": "Royal Derwent Hospital – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as one of Australia's oldest psychiatric hospitals, from 1827 New Norfolk Asylum through closure as Royal Derwent Hospital in 2000."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic coverage confirming public awareness and heritage significance of the Royal Derwent Hospital / Willow Court precinct."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.findandconnect.gov.au/entity/royal-derwent-hospital/",
+      "title": "Royal Derwent Hospital – Find & Connect",
+      "publisher": "Find & Connect",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Find and Connect (Australian government-linked care and protection institutions database) entry documents institutional history of Royal Derwent Hospital as a psychiatric and disability care institution."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.heraldsun.com.au/news/tasmania/troubled-and-historic-willow-court-at-new-norfolk-recognised-as-international-site-of-conscience/news-story/7dfec2f74ea8ce29c8648af3c1295188",
+      "title": "Troubled and Historic Willow Court Recognised as International Site of Conscience – Herald Sun",
+      "publisher": "Herald Sun",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "News article documenting recognition of Willow Court as an International Site of Conscience, and ongoing public controversy around paranormal tourism framing at the site."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

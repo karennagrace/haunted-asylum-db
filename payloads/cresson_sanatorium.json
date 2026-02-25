@@ -1,0 +1,108 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Cresson Sanatorium",
+    "official_site_url": "https://www.cressonsanatorium.com",
+    "country": "US",
+    "region": "Pennsylvania",
+    "city": "Cresson",
+    "address": null,
+    "notes": "Former state sanatorium and later State Correctional Institution at Cresson (SCI Cresson), representing a mixed institutional history combining sanatorium and prison use. Now operates as a paranormal investigation and events venue. Official site is event-driven; link each event page individually when scraping. Multiple third-party operators host events on site."
+  },
+  "aliases": [
+    "Cresson Prison",
+    "SCI Cresson",
+    "State Correctional Institution at Cresson"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.cressonsanatorium.com/",
+      "title": "Cresson Sanatorium",
+      "publisher": "Cresson Sanatorium",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official site doubles as the primary event/ticket page, confirming paid public access for paranormal events and exploration."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active paranormal tourism operation at the former Cresson Sanatorium / Prison complex."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://app2.hauntpay.com/events/explore-the-former-cresson-prison-sanatorium-self-guided-tours",
+      "title": "Explore the Former Cresson Prison Sanatorium – Self-Guided Tours",
+      "publisher": "HauntPay",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party ticketing platform HauntPay lists self-guided tour tickets for the former Cresson Prison Sanatorium, confirming paid public access."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.visitjohnstownpa.com/event/cresson-prison-para-horror-con",
+      "title": "Cresson Prison Para Horror Con – Visit Johnstown PA",
+      "publisher": "Visit Johnstown PA",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Regional tourism board event listing for Cresson Prison Para Horror Con confirms third-party authorized events at the site."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Regional tourism board coverage of events at Cresson Sanatorium."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.imaginariumsanitarium.com/dates-and-tickets.html",
+      "title": "Dates and Tickets – Imaginarium Sanitarium",
+      "publisher": "Imaginarium Sanitarium",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party operator Imaginarium Sanitarium sells tickets for events at the Cresson site, confirming paid public access via partner operator."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

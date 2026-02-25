@@ -1,0 +1,139 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Eloise Asylum",
+    "official_site_url": "https://eloiseasylum.com",
+    "country": "US",
+    "region": "Michigan",
+    "city": "Westland",
+    "address": "30712 Michigan Ave, Westland, MI 48186",
+    "notes": "Former Wayne County Poorhouse/Almshouse complex (est. 1839) that expanded to include a psychiatric hospital, tuberculosis sanatorium, and general hospital. At its peak housed thousands of patients and staff across dozens of buildings. The psychiatric hospital was officially the Wayne County General Hospital and Infirmary. Now operates as a haunted attraction and history tour venue. Official marketing text is strong for discourse analysis; watch for boilerplate repetition."
+  },
+  "aliases": [
+    "Eloise Psychiatric Hospital",
+    "Wayne County Almshouse",
+    "Wayne County Asylum",
+    "Wayne County General Hospital and Infirmary",
+    "Wayne County Poor Farm"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://eloiseasylum.com/",
+      "title": "Eloise Asylum",
+      "publisher": "Eloise Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active haunted attraction and history tour operation at Eloise Asylum."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://eloiseasylum.com/book-now/",
+      "title": "Book Now",
+      "publisher": "Eloise Asylum",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official ticket booking page confirms paid public access to haunted attraction and tour programming."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://eloiseasylum.com/our-attractions/",
+      "title": "Our Attractions",
+      "publisher": "Eloise Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official attractions page lists authorized paid programming including haunted attraction experiences and history tours."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Eloise_(psychiatric_hospital)",
+      "title": "Eloise (psychiatric hospital) – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as Wayne County Almshouse/psychiatric hospital complex from 1839 onward."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party encyclopaedic coverage confirming public awareness and heritage significance of the Eloise complex."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.michigandnr.com/publications/pdfs/ArcGISOnline/StoryMaps/mhc_historical_markers/pdfs/MHC822006038.pdf",
+      "title": "Michigan Historical Marker – Eloise",
+      "publisher": "Michigan DNR / Michigan Historical Center",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Michigan state historical marker PDF documents official recognition of the Eloise complex's institutional history."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.wxyz.com/about-us/as-seen-on/eloise-asylum-in-westland-opens-for-fall-2021-season-as-a-high-tech-haunted-attraction",
+      "title": "Eloise Asylum in Westland Opens for Fall 2021 Season – WXYZ",
+      "publisher": "WXYZ Detroit",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Local news coverage of Eloise Asylum haunted attraction opening, confirming active public-facing tourism operation."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

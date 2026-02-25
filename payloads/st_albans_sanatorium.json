@@ -1,0 +1,110 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "St. Albans Sanatorium",
+    "official_site_url": "https://www.stalbansvirginia.com",
+    "country": "US",
+    "region": "Virginia",
+    "city": "Radford",
+    "address": null,
+    "notes": "Former school and sanatorium with reported psychiatric care history in Radford, Virginia. Structure dates to 1892. Operates as a dark tourism venue offering flashlight tours, public paranormal investigations, and dark-house events. Note: 'sanatorium' framing may derive partly from operator materials; verify institutional designation in primary historical sources."
+  },
+  "aliases": [
+    "St. Albans School"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.stalbansvirginia.com/",
+      "title": "St. Albans Sanatorium",
+      "publisher": "St. Albans Sanatorium",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active dark tourism operation at St. Albans Sanatorium."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.stalbansvirginia.com/event-list",
+      "title": "Event List",
+      "publisher": "St. Albans Sanatorium",
+      "published_date": null,
+      "official_category": "schedule_calendar",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_calendar_season",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official event list page confirms paid public programming including flashlight tours and paranormal investigations."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.stalbansvirginia.com/public-paranormal-investigations",
+      "title": "Public Paranormal Investigations",
+      "publisher": "St. Albans Sanatorium",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official public paranormal investigations page confirms authorized paid overnight and public investigation programming."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.virginia.org/places-to-visit/regions/blue-ridge-highlands/radford/",
+      "title": "Radford – Virginia Tourism Corporation",
+      "publisher": "Virginia Tourism Corporation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Virginia state tourism board coverage of Radford, including St. Albans Sanatorium as a visitor attraction."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://allevents.in/radford/june-14th-flashlight-tour-and-paranormal-investigation/200028087417140",
+      "title": "Flashlight Tour and Paranormal Investigation – Allevents",
+      "publisher": "Allevents.in",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party event aggregator listing for St. Albans flashlight tour and paranormal investigation confirms ticketed public access. Note: event-specific URL; verify current availability."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

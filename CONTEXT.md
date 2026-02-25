@@ -451,7 +451,9 @@ haunted-asylum-db/
 
 ## Adding Captures (add_captures.py)
 
-Captures live at: `C:\Users\K\Documents\PhD\Captures\[sitename]\[date]\[filename].pdf`
+Captures live at: `C:\Users\K\Documents\PhD\Captures\[sitename]\[date]\[filename].pdf` (or `.png`)
+
+Supported file types: `.pdf` → inserted as `kind=pdf` · `.png` → inserted as `kind=screenshot`
 
 **Run from Windows terminal (cmd or PowerShell):**
 ```
@@ -459,12 +461,12 @@ C:\Users\K\AppData\Local\Programs\Python\Python312\python.exe C:\Users\K\haunted
 ```
 
 **What it does:**
-1. Finds all PDFs in the date folder
+1. Finds all PDFs and PNGs in the date folder
 2. Looks up the site's documents from the database
 3. For unrecognised filenames, shows a numbered list of documents and asks you to assign one
 4. Saves the filename → document URL assignment to `mapping.json` in the site folder (never asks again for the same filename)
-5. Computes SHA-256 hash of each PDF
-6. Upserts the capture row — safe to re-run
+5. Computes SHA-256 hash of each file
+6. Upserts the capture row and links evidence_items — safe to re-run
 
 **Dry run (no DB writes):**
 ```
