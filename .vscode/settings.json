@@ -1,0 +1,13 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["payloads/*.json"],
+      "url": "./schemas/ingest-site.schema.json"
+    }
+  ],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "payloads/*.json": "json"
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "New site payload": {
+    "prefix": "newsite",
+    "description": "Complete site ingestion payload skeleton",
+    "body": [
+      "{",
+      "  \"researcher_id\": \"36339282-36e1-41b8-ad8b-bba0fff72e64\",",
+      "",
+      "  \"site\": {",
+      "    \"site_name\": \"${1:Site Name}\",",
+      "    \"official_site_url\": \"${2:https://}\",",
+      "    \"country\": \"${3:US}\",",
+      "    \"region\": \"${4:State}\",",
+      "    \"city\": \"${5:City}\",",
+      "    \"address\": \"${6:Full address}\",",
+      "    \"notes\": \"${7:Former institution type (years). Now operates as...}\"",
+      "  },",
+      "",
+      "  \"aliases\": [",
+      "    \"${8:Alternate Name}\"",
+      "  ],",
+      "",
+      "  \"documents\": [",
+      "    $0",
+      "  ],",
+      "",
+      "  \"tv_episodes\": [],",
+      "",
+      "  \"youtube_videos\": [],",
+      "",
+      "  \"review_profiles\": []",
+      "}"
+    ]
+  },
+
+  "Official document (history)": {
+    "prefix": "doc-history",
+    "description": "Official history/about page with R1 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Site Name} – History\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"history_about\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R1\",",
+      "      \"evidence_type\": \"r1_institution_history\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:Official site documents institutional history...}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "Official document (tickets)": {
+    "prefix": "doc-tickets",
+    "description": "Official ticket/booking page with R2 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Site Name} – Tickets\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"ticket_booking\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R2\",",
+      "      \"evidence_type\": \"r2_ticket_booking\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:Official ticket page confirms paid public access.}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "Official document (tours/events)": {
+    "prefix": "doc-tours",
+    "description": "Official tours & events page with R2 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Site Name} – Tours & Events\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"tour_event\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R2\",",
+      "      \"evidence_type\": \"r2_authorization\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:Tours page lists authorized paid programming.}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "Official document (FAQ/rules)": {
+    "prefix": "doc-faq",
+    "description": "Official FAQ/rules/waiver page with R2 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Site Name} – FAQ\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"rules_faq_waiver\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R2\",",
+      "      \"evidence_type\": \"r2_authorization\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:FAQ outlines rules and visitor policies confirming structured access.}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "Official document (schedule)": {
+    "prefix": "doc-schedule",
+    "description": "Official schedule/calendar page with R2 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Site Name} – Schedule\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"schedule_calendar\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R2\",",
+      "      \"evidence_type\": \"r2_calendar_season\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:Schedule page confirms programming dates.}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "Official document (generic)": {
+    "prefix": "doc-official",
+    "description": "Generic official page with R3 evidence",
+    "body": [
+      "{",
+      "  \"source\": \"official\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Page Title}\",",
+      "  \"publisher\": \"${3:Site Name}\",",
+      "  \"published_date\": null,",
+      "  \"official_category\": \"${4|history_about,tour_event,ticket_booking,rules_faq_waiver,schedule_calendar,other|}\",",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"${5|R1,R2,R3|}\",",
+      "      \"evidence_type\": \"${6|r1_institution_history,r2_ticket_booking,r2_calendar_season,r2_authorization,r3_official_page,r3_third_party,r3_review_ecosystem,r3_youtube,r3_tv,r3_reddit|}\",",
+      "      \"evidence_date\": null,",
+      "      \"access_date\": \"${7:2026-02-24}\",",
+      "      \"description\": \"${8:Why this qualifies...}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  },
+
+  "TV episode": {
+    "prefix": "tv",
+    "description": "TV episode entry",
+    "body": [
+      "{",
+      "  \"show_name\": \"${1|Ghost Adventures,Ghost Hunters,Destination Fear,Paranormal Lockdown,Portals to Hell,Conjuring Kesha,Expedition X,Paranormal Caught on Camera,Ghost Stories,Paranormal Challenge|}\",",
+      "  \"season_number\": ${2:1},",
+      "  \"episode_number\": ${3:1},",
+      "  \"episode_title\": \"${4:Episode Title}\",",
+      "  \"air_date\": \"${5:YYYY-MM-DD}\",",
+      "  \"synopsis\": \"${6:Brief synopsis...}\",",
+      "  \"channel\": \"${7|Travel Channel,Syfy,Discovery Channel,A&E,Destination America,Quest TV|}\",",
+      "  \"viewers\": null,",
+      "  \"imdb_rating\": ${8:null},",
+      "  \"imdb_quantity\": null",
+      "}"
+    ]
+  },
+
+  "YouTube video": {
+    "prefix": "yt",
+    "description": "YouTube video entry",
+    "body": [
+      "{",
+      "  \"url\": \"https://www.youtube.com/watch?v=${1:VIDEO_ID}\",",
+      "  \"video_title\": \"${2:Video Title}\",",
+      "  \"channel_name\": \"${3:Channel Name}\",",
+      "  \"upload_date\": \"${4:YYYY-MM-DD}\",",
+      "  \"view_count\": ${5:0},",
+      "  \"like_count\": ${6:0},",
+      "  \"comment_count\": ${7:0},",
+      "  \"description_text\": \"${8:First paragraph of description...}\",",
+      "  \"duration\": \"PT${9:00}M${10:00}S\",",
+      "  \"category\": \"${11|Entertainment,Education,People & Blogs,Film & Animation|}\",",
+      "  \"channel_subscribers\": ${12:0}",
+      "}"
+    ]
+  },
+
+  "Review profile — TripAdvisor": {
+    "prefix": "review-ta",
+    "description": "TripAdvisor review profile",
+    "body": [
+      "{",
+      "  \"platform_id\": \"27136a13-65da-4e03-995e-e60c33cecd10\",",
+      "  \"profile_url\": \"${1:https://www.tripadvisor.com/Attraction_Review-...}\",",
+      "  \"documents\": []",
+      "}"
+    ]
+  },
+
+  "Review profile — Yelp": {
+    "prefix": "review-yelp",
+    "description": "Yelp review profile",
+    "body": [
+      "{",
+      "  \"platform_id\": \"71d104c1-b450-4f8e-ad2c-d7be3b8920a3\",",
+      "  \"profile_url\": \"${1:https://www.yelp.com/biz/...}\",",
+      "  \"documents\": []",
+      "}"
+    ]
+  },
+
+  "Review profile — Google": {
+    "prefix": "review-google",
+    "description": "Google review profile",
+    "body": [
+      "{",
+      "  \"platform_id\": \"e6432503-3900-4821-8df4-e9e8f6c27df7\",",
+      "  \"profile_url\": \"${1:https://...}\",",
+      "  \"documents\": []",
+      "}"
+    ]
+  },
+
+  "Review profile — Facebook": {
+    "prefix": "review-fb",
+    "description": "Facebook review profile",
+    "body": [
+      "{",
+      "  \"platform_id\": \"6dcb0833-aaa9-40b8-bb9a-a9725efa96d8\",",
+      "  \"profile_url\": \"${1:https://www.facebook.com/.../reviews/}\",",
+      "  \"documents\": []",
+      "}"
+    ]
+  },
+
+  "Evidence item": {
+    "prefix": "ev",
+    "description": "Single evidence item",
+    "body": [
+      "{",
+      "  \"rule\": \"${1|R1,R2,R3|}\",",
+      "  \"evidence_type\": \"${2|r1_institution_history,r2_ticket_booking,r2_calendar_season,r2_authorization,r3_official_page,r3_third_party,r3_review_ecosystem,r3_youtube,r3_tv,r3_reddit|}\",",
+      "  \"evidence_date\": null,",
+      "  \"access_date\": \"${3:2026-02-24}\",",
+      "  \"description\": \"${4:Why this qualifies...}\"",
+      "}"
+    ]
+  },
+
+  "Review document with evidence": {
+    "prefix": "review-doc",
+    "description": "Review document with R3 review ecosystem evidence",
+    "body": [
+      "{",
+      "  \"source\": \"review\",",
+      "  \"url\": \"${1:https://}\",",
+      "  \"title\": \"${2:Platform} reviews - ${3:Site Name}\",",
+      "  \"publisher\": \"${2:Platform}\",",
+      "  \"published_date\": null,",
+      "  \"captures\": [],",
+      "  \"evidence\": [",
+      "    {",
+      "      \"rule\": \"R3\",",
+      "      \"evidence_type\": \"r3_review_ecosystem\",",
+      "      \"evidence_date\": \"${4:2026-02-24}\",",
+      "      \"access_date\": \"${4:2026-02-24}\",",
+      "      \"description\": \"${5:Review profile captured (rating/volume/recency evidence).}\"",
+      "    }",
+      "  ]",
+      "}"
+    ]
+  }
+}
