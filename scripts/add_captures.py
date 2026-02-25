@@ -100,7 +100,7 @@ def resolve_document(stem: str, docs: list[dict], mapping: dict, site_dir: Path)
     for i, doc in enumerate(docs):
         label = doc["title"] or doc["url"]
         cat   = f"  [{doc['category']}]" if doc["category"] else ""
-        print(f"    [{i}] {label}{cat}")
+        print(f"    [{i}] {label}{cat}  →  {doc['url']}")
     print("    [s] Skip this file")
 
     choice = input("  Assign to document number (or s to skip): ").strip().lower()
@@ -150,12 +150,13 @@ def main():
         print(f"ERROR: Folder not found: {date_dir}")
         sys.exit(1)
 
-    pdfs = sorted(date_dir.glob("*.pdf"))
-    if not pdfs:
-        print(f"No PDFs found in {date_dir}")
+    EXT_TO_KIND = {".pdf": "pdf", ".png": "screenshot"}
+    files = sorted(f for f in date_dir.iterdir() if f.suffix.lower() in EXT_TO_KIND)
+    if not files:
+        print(f"No supported files (.pdf, .png) found in {date_dir}")
         sys.exit(0)
 
-    print(f"Found {len(pdfs)} PDF(s) in {date_dir}")
+    print(f"Found {len(files)} file(s) in {date_dir}")
     if args.dry_run:
         print("DRY RUN — no changes will be written.\n")
 
@@ -177,8 +178,9 @@ def main():
         updated    = 0
         skipped    = 0
 
-        for pdf in pdfs:
+        for pdf in files:
             stem = pdf.stem
+            kind = EXT_TO_KIND[pdf.suffix.lower()]
             print(f"\n{'[DRY RUN] ' if args.dry_run else ''}Processing: {pdf.name}")
 
             doc_id = resolve_document(stem, docs, mapping, site_dir)
@@ -207,7 +209,7 @@ def main():
                     )
                     VALUES (
                         %s, %s, %s, %s,
-                        'pdf', 200, %s, %s, NULL
+                        %s, 200, %s, %s, NULL
                     )
                     ON CONFLICT (document_id, content_hash) DO UPDATE
                         SET file_path  = EXCLUDED.file_path,
@@ -216,7 +218,7 @@ def main():
                               (xmax = 0) AS was_inserted
                 """, (
                     str(uuid.uuid4()), doc_id, RESEARCHER_ID,
-                    capture_ts, rel_path, hash_val
+                    capture_ts, kind, rel_path, hash_val
                 ))
                 row = cur.fetchone()
                 capture_id   = row[0]

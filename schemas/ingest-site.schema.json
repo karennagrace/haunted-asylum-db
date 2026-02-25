@@ -1,0 +1,376 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Haunted Asylum Site Ingestion Payload",
+  "description": "Payload for the ingest_site() RPC. All array sections are optional.",
+  "type": "object",
+  "required": ["researcher_id", "site"],
+  "properties": {
+    "researcher_id": {
+      "type": "string",
+      "description": "Your researcher UUID. Always: 36339282-36e1-41b8-ad8b-bba0fff72e64",
+      "default": "36339282-36e1-41b8-ad8b-bba0fff72e64"
+    },
+    "site": {
+      "type": "object",
+      "description": "Basic site information. official_site_url is the dedup key.",
+      "required": ["site_name", "official_site_url"],
+      "properties": {
+        "site_name": {
+          "type": "string",
+          "description": "The name the site uses for itself on its website"
+        },
+        "official_site_url": {
+          "type": "string",
+          "description": "Homepage URL — this is the dedup key (prevents duplicates)",
+          "format": "uri"
+        },
+        "country": {
+          "type": "string",
+          "description": "Country code, e.g. US, UK, AU"
+        },
+        "region": {
+          "type": "string",
+          "description": "State, province, or region"
+        },
+        "city": {
+          "type": "string",
+          "description": "City or town"
+        },
+        "address": {
+          "type": ["string", "null"],
+          "description": "Full street address"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Your research notes about this site — what it is, why it matters"
+        }
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "description": "Alternative names for the site",
+      "items": { "type": "string" },
+      "default": []
+    },
+    "documents": {
+      "type": "array",
+      "description": "Official web pages and other documents, each with optional evidence",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["source", "url", "title", "publisher"],
+        "properties": {
+          "source": {
+            "type": "string",
+            "description": "Who created this page?",
+            "enum": ["official", "third_party", "review", "youtube", "tv", "reddit", "other"]
+          },
+          "url": {
+            "type": "string",
+            "description": "Exact URL of the page. Dedup key (per site).",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string",
+            "description": "Your descriptive label for this page"
+          },
+          "publisher": {
+            "type": "string",
+            "description": "Who runs the website (site name for official pages, 'TripAdvisor' for reviews, etc.)"
+          },
+          "published_date": {
+            "type": ["string", "null"],
+            "description": "Publication date if known (YYYY-MM-DD). Usually null for web pages.",
+            "format": "date"
+          },
+          "official_category": {
+            "type": ["string", "null"],
+            "description": "Only set when source is 'official'. What kind of page is this?",
+            "enum": [
+              "history_about",
+              "tour_event",
+              "ticket_booking",
+              "rules_faq_waiver",
+              "schedule_calendar",
+              "other",
+              null
+            ]
+          },
+          "captures": {
+            "type": "array",
+            "description": "Screenshots/PDFs of this page. Usually [] — add via add_captures.py later.",
+            "default": [],
+            "items": { "$ref": "#/definitions/capture" }
+          },
+          "evidence": {
+            "type": "array",
+            "description": "What does this page prove? Can have 0 or many evidence items.",
+            "default": [],
+            "items": { "$ref": "#/definitions/evidence_item" }
+          }
+        }
+      }
+    },
+    "tv_episodes": {
+      "type": "array",
+      "description": "TV show appearances. Dedup key: site + show_name + season + episode.",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["show_name", "season_number", "episode_number", "episode_title", "air_date", "channel"],
+        "properties": {
+          "show_name": {
+            "type": "string",
+            "description": "Exact show name, e.g. 'Ghost Adventures', 'Ghost Hunters', 'Destination Fear'"
+          },
+          "season_number": {
+            "type": "integer",
+            "description": "Season number. Use 0 for specials.",
+            "minimum": 0
+          },
+          "episode_number": {
+            "type": "integer",
+            "description": "Episode number. Use 0 for specials.",
+            "minimum": 0
+          },
+          "episode_title": {
+            "type": "string",
+            "description": "Episode title"
+          },
+          "air_date": {
+            "type": "string",
+            "description": "Original air date (YYYY-MM-DD)",
+            "format": "date"
+          },
+          "synopsis": {
+            "type": ["string", "null"],
+            "description": "Brief episode summary"
+          },
+          "channel": {
+            "type": "string",
+            "description": "Network/channel, e.g. 'Travel Channel', 'Syfy', 'Discovery Channel'"
+          },
+          "viewers": {
+            "type": ["number", "null"],
+            "description": "Viewership number (millions). null if unknown."
+          },
+          "imdb_rating": {
+            "type": ["number", "null"],
+            "description": "IMDb rating, e.g. 7.8. null if unknown."
+          },
+          "imdb_quantity": {
+            "type": ["integer", "null"],
+            "description": "Number of IMDb votes. null if unknown."
+          }
+        }
+      }
+    },
+    "youtube_videos": {
+      "type": "array",
+      "description": "YouTube videos about the site. Dedup key: url.",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["url", "video_title", "channel_name", "upload_date"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "description": "Full YouTube URL, e.g. https://www.youtube.com/watch?v=...",
+            "format": "uri"
+          },
+          "video_title": {
+            "type": "string",
+            "description": "Video title as shown on YouTube"
+          },
+          "channel_name": {
+            "type": "string",
+            "description": "YouTube channel name"
+          },
+          "upload_date": {
+            "type": "string",
+            "description": "Upload date (YYYY-MM-DD)",
+            "format": "date"
+          },
+          "view_count": {
+            "type": ["integer", "null"],
+            "description": "Number of views"
+          },
+          "like_count": {
+            "type": ["integer", "null"],
+            "description": "Number of likes"
+          },
+          "comment_count": {
+            "type": ["integer", "null"],
+            "description": "Number of comments"
+          },
+          "description_text": {
+            "type": ["string", "null"],
+            "description": "First paragraph or two of the video description"
+          },
+          "duration": {
+            "type": ["string", "null"],
+            "description": "ISO 8601 duration, e.g. PT42M17S (42 min 17 sec), PT1H12M03S (1 hr 12 min 3 sec)"
+          },
+          "category": {
+            "type": ["string", "null"],
+            "description": "YouTube category, e.g. 'Entertainment', 'Education'"
+          },
+          "channel_subscribers": {
+            "type": ["integer", "null"],
+            "description": "Channel subscriber count"
+          }
+        }
+      }
+    },
+    "review_profiles": {
+      "type": "array",
+      "description": "Review platform profiles (TripAdvisor, Yelp, Google, Facebook, etc.)",
+      "default": [],
+      "items": {
+        "type": "object",
+        "required": ["platform_id", "profile_url"],
+        "properties": {
+          "platform_id": {
+            "type": "string",
+            "description": "Platform UUID. TripAdvisor: 27136a13-65da-4e03-995e-e60c33cecd10 | Yelp: 71d104c1-b450-4f8e-ad2c-d7be3b8920a3 | Google: e6432503-3900-4821-8df4-e9e8f6c27df7 | Facebook: 6dcb0833-aaa9-40b8-bb9a-a9725efa96d8 | Wanderlog: 18de7256-bd98-4002-a0f2-ccc495f05fb1 | HauntScout: 23d601bf-962b-4752-a8c3-2674cc0a5ba5",
+            "enum": [
+              "27136a13-65da-4e03-995e-e60c33cecd10",
+              "71d104c1-b450-4f8e-ad2c-d7be3b8920a3",
+              "e6432503-3900-4821-8df4-e9e8f6c27df7",
+              "6dcb0833-aaa9-40b8-bb9a-a9725efa96d8",
+              "18de7256-bd98-4002-a0f2-ccc495f05fb1",
+              "23d601bf-962b-4752-a8c3-2674cc0a5ba5"
+            ]
+          },
+          "profile_url": {
+            "type": "string",
+            "description": "URL of the site's profile on this platform",
+            "format": "uri"
+          },
+          "documents": {
+            "type": "array",
+            "description": "Optional review documents with captures and evidence. Usually [] initially.",
+            "default": [],
+            "items": {
+              "type": "object",
+              "required": ["source", "url", "title", "publisher"],
+              "properties": {
+                "source": {
+                  "type": "string",
+                  "enum": ["review"],
+                  "default": "review"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "title": { "type": "string" },
+                "publisher": { "type": "string" },
+                "published_date": {
+                  "type": ["string", "null"],
+                  "format": "date"
+                },
+                "captures": {
+                  "type": "array",
+                  "default": [],
+                  "items": { "$ref": "#/definitions/capture" }
+                },
+                "evidence": {
+                  "type": "array",
+                  "default": [],
+                  "items": { "$ref": "#/definitions/evidence_item" }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "evidence_item": {
+      "type": "object",
+      "required": ["rule", "evidence_type", "access_date", "description"],
+      "properties": {
+        "rule": {
+          "type": "string",
+          "description": "Which rule? R1=institution history, R2=ticket/booking/access, R3=third-party corroboration",
+          "enum": ["R1", "R2", "R3"]
+        },
+        "evidence_type": {
+          "type": "string",
+          "description": "Specific evidence sub-type",
+          "enum": [
+            "r1_institution_history",
+            "r2_ticket_booking",
+            "r2_calendar_season",
+            "r2_authorization",
+            "r3_official_page",
+            "r3_third_party",
+            "r3_review_ecosystem",
+            "r3_youtube",
+            "r3_tv",
+            "r3_reddit"
+          ]
+        },
+        "evidence_date": {
+          "type": ["string", "null"],
+          "description": "Date of the evidence itself (usually null). YYYY-MM-DD.",
+          "format": "date"
+        },
+        "access_date": {
+          "type": "string",
+          "description": "Date you looked at this (today's date). YYYY-MM-DD.",
+          "format": "date"
+        },
+        "description": {
+          "type": "string",
+          "description": "Your researcher note: why does this qualify as evidence?"
+        }
+      }
+    },
+    "capture": {
+      "type": "object",
+      "required": ["capture_ts", "kind", "http_status", "file_path", "content_hash"],
+      "properties": {
+        "capture_ts": {
+          "type": "string",
+          "description": "When the capture was taken (ISO 8601 timestamp)",
+          "format": "date-time"
+        },
+        "kind": {
+          "type": "string",
+          "description": "File type of the capture",
+          "enum": ["html", "pdf", "screenshot", "text", "other"]
+        },
+        "http_status": {
+          "type": "integer",
+          "description": "HTTP status when captured (usually 200)",
+          "default": 200
+        },
+        "file_path": {
+          "type": "string",
+          "description": "Path to the file (relative to home directory)"
+        },
+        "content_hash": {
+          "type": "string",
+          "description": "SHA-256 hex hash of the file (for dedup)"
+        },
+        "text_excerpt": {
+          "type": ["string", "null"],
+          "description": "Short excerpt from the page"
+        },
+        "notes": {
+          "type": ["string", "null"],
+          "description": "Any notes about this capture"
+        },
+        "evidence": {
+          "type": "array",
+          "description": "Evidence tied to this specific capture",
+          "default": [],
+          "items": { "$ref": "#/definitions/evidence_item" }
+        }
+      }
+    }
+  }
+}

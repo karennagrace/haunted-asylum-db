@@ -1,6 +1,5 @@
 {
   "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
-
   "site": {
     "site_name": "Pennhurst Asylum",
     "official_site_url": "https://pennhurstasylum.com",
@@ -10,31 +9,22 @@
     "address": "601 North Church Street, Spring City, PA 19475",
     "notes": "Former Eastern Pennsylvania State Institution for the Feeble-Minded and Epileptic (1908–1987). Now operates as haunted attraction, paranormal investigation venue, and daytime historical tour site. Major disability rights case site (Halderman v. Pennhurst, 1977)."
   },
-
   "aliases": [
     "Pennhurst State School and Hospital",
     "Pennhurst State School",
-    "Eastern Pennsylvania State Institution",
+    "Eastern Pennsylvania State Institute",
     "Eastern Pennsylvania State Institution for the Feeble-Minded and Epileptic"
   ],
-
   "documents": [
     {
       "source": "official",
       "url": "https://pennhurstasylum.com/visit/",
-      "title": "Pennhurst Asylum – Visit / Daytime Historical Tours",
+      "title": "Visit / Daytime Historical Tours",
       "publisher": "Pennhurst Asylum LLC",
       "published_date": null,
-      "official_category": "history_about",
+      "official_category": "tour_event",
       "captures": [],
       "evidence": [
-        {
-          "rule": "R1",
-          "evidence_type": "r1_institution_history",
-          "evidence_date": null,
-          "access_date": "2026-02-23",
-          "description": "Official site's visit/history page documents institutional history from 1908 opening through 1987 closure and current heritage tourism operation."
-        },
         {
           "rule": "R3",
           "evidence_type": "r3_official_page",
@@ -47,7 +37,7 @@
     {
       "source": "official",
       "url": "https://pennhurstasylum.com/tickets/",
-      "title": "Pennhurst Asylum – Tickets",
+      "title": "Tickets",
       "publisher": "Pennhurst Asylum LLC",
       "published_date": null,
       "official_category": "ticket_booking",
@@ -63,9 +53,27 @@
       ]
     },
     {
+      "source": "third_party",
+      "url": "https://secure.interactiveticketing.com/1.43/ec53d5/",
+      "title": "Tickets",
+      "publisher": "Interactive Ticketing",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-24",
+          "description": "Third party ticket purchase page confirms paid public access to the site."
+        }
+      ]
+    },
+    {
       "source": "official",
       "url": "https://pennhurstasylum.com/tours-events/",
-      "title": "Pennhurst Asylum – Tours & Events",
+      "title": "Paranormal Investigations and Tours",
       "publisher": "Pennhurst Asylum LLC",
       "published_date": null,
       "official_category": "tour_event",
@@ -99,7 +107,6 @@
       ]
     }
   ],
-
   "tv_episodes": [
     {
       "show_name": "Ghost Adventures",
@@ -174,9 +181,7 @@
       "imdb_quantity": null
     }
   ],
-
   "youtube_videos": [],
-
   "review_profiles": [
     {
       "platform_id": "27136a13-65da-4e03-995e-e60c33cecd10",
