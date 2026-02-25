@@ -1,0 +1,137 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Rolling Hills Asylum",
+    "official_site_url": "https://www.rollinghillsasylum.com",
+    "country": "US",
+    "region": "New York",
+    "city": "East Bethany",
+    "address": "11095 South Lake Rd, East Bethany, NY 14054",
+    "notes": "Former Genesee County Poor Farm (est. 1827), later Genesee County County Home housing paupers, the mentally ill, orphans, and others requiring county care. Operated as a poorhouse/county home for over a century. Now operates as a haunted tourism and paranormal investigation venue. Received a New York State Legends and Lore historical marker."
+  },
+  "aliases": [
+    "Genesee County Poor Farm",
+    "Genesee County County Home",
+    "Rolling Hills Country Club"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.rollinghillsasylum.com/",
+      "title": "Rolling Hills Asylum",
+      "publisher": "Rolling Hills Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active tourism operation as Rolling Hills Asylum."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.rollinghillsasylum.com/calendar",
+      "title": "Event Calendar",
+      "publisher": "Rolling Hills Asylum",
+      "published_date": null,
+      "official_category": "schedule_calendar",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_calendar_season",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official calendar and booking page confirms paid public event programming at the site."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.rollinghillsasylum.com/experience-it/ghost-hunts",
+      "title": "Ghost Hunts",
+      "publisher": "Rolling Hills Asylum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official ghost hunts page describes authorized paid paranormal investigation programming, including Psych Hold overnights and flashlight tours."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.rollinghillsasylum.com/about-rha/history",
+      "title": "History of Rolling Hills Asylum",
+      "publisher": "Rolling Hills Asylum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official history page documents the site's origin as the Genesee County Poor Farm and subsequent uses as county home housing indigent, mentally ill, and orphaned residents."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://visitgeneseeny.com/about/news/rolling-hills-asylum-receives-legends-and-lore-marker",
+      "title": "Rolling Hills Asylum Receives Legends and Lore Marker",
+      "publisher": "Visit Genesee NY",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "County tourism board announcement confirms receipt of New York State Legends and Lore historical marker, corroborating institutional history of the site."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party tourism coverage of Rolling Hills Asylum heritage marker recognition."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.wgpfoundation.org/historic-markers/rolling-hills/",
+      "title": "Rolling Hills – WGP Foundation Historic Marker",
+      "publisher": "WGP Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "WGP Foundation historic marker entry documenting institutional history of the Genesee County Poor Farm / Rolling Hills site."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

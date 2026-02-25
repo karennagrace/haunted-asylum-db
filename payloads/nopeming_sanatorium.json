@@ -1,0 +1,89 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Nopeming Sanatorium",
+    "official_site_url": "https://en.wikipedia.org/wiki/Nopeming_Sanatorium",
+    "country": "US",
+    "region": "Minnesota",
+    "city": "Duluth",
+    "address": null,
+    "notes": "Former St. Louis County tuberculosis sanatorium (est. 1912), later converted to a nursing home. Closed to the public as of 2019 following fire code violations. No active official website. Included as a formerly-ticketed site useful for historical corpus analysis. Ownership changed hands several times; history includes tuberculosis treatment, ghost hunts, and administrative controversy. Wikipedia URL used as official_site_url placeholder since no official site exists."
+  },
+  "aliases": [
+    "St. Louis County Nopeming Sanatorium",
+    "Nopeming Nursing Home"
+  ],
+  "documents": [
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Nopeming_Sanatorium",
+      "title": "Nopeming Sanatorium – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as St. Louis County tuberculosis sanatorium and subsequent nursing home uses."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic third-party coverage confirming public awareness of Nopeming Sanatorium's heritage significance."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.duluthnewstribune.com/news/nopeming-closed-due-to-fire-code-violations",
+      "title": "Nopeming Closed Due to Fire Code Violations – Duluth News Tribune",
+      "publisher": "Duluth News Tribune",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Local news coverage of Nopeming closure due to fire code violations, documenting end of public access programming."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.inforum.com/news/the-vault/stranger-than-fiction-nopeming-sanatoriums-history-of-tuberculosis-ghost-hunts-and-ownership-scandals",
+      "title": "Stranger Than Fiction: Nopeming Sanatorium's History – InForum",
+      "publisher": "InForum",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "In-depth news feature documenting Nopeming's institutional history of tuberculosis treatment, subsequent ghost hunt programming, and ownership controversies."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Regional news coverage of Nopeming Sanatorium's history and ghost hunt programming confirming past public dark tourism access."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

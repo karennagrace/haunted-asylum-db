@@ -1,0 +1,145 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Beelitz-Heilstätten",
+    "official_site_url": "https://baumundzeit.de",
+    "country": "DE",
+    "region": "Brandenburg",
+    "city": "Beelitz",
+    "address": "Straße nach Fichtenwalde 16, 14547 Beelitz",
+    "notes": "Former tuberculosis sanatorium complex (est. 1898), used as a military hospital in both World Wars and then by Soviet forces until 1994. Historic complex managed by Baum und Zeit (Tree and Time), which operates a Baumkronenpfad (treetop walk) and Taschenlampenführungen (flashlight/lantern tours). Ticketing through online shop at baumundzeit.de. German-language corpus; useful for multilingual discourse analysis. A significant portion of the complex is separately managed."
+  },
+  "aliases": [
+    "Beelitz Sanatorium",
+    "Beelitz-Heilstätten Military Hospital",
+    "Heilstätten Beelitz",
+    "Beelitz Heilstätten"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://baumundzeit.de/",
+      "title": "Baum und Zeit – Beelitz-Heilstätten",
+      "publisher": "Baum und Zeit",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official operator homepage confirms active tour and visitor programming at Beelitz-Heilstätten managed by Baum und Zeit."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://baumundzeit.de/en/shop_en/",
+      "title": "Online Shop (English)",
+      "publisher": "Baum und Zeit",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official English-language online shop confirms paid public ticket sales for tours at Beelitz-Heilstätten, easiest for repeatable scraping."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://baumundzeit.de/taschenlampenfuehrung/",
+      "title": "Taschenlampenführung (Flashlight Tour)",
+      "publisher": "Baum und Zeit",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official flashlight tour (Taschenlampenführung) page confirms authorized paid guided nighttime tours through the Beelitz-Heilstätten complex."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://baumundzeit.de/taschenlampen-fuehrung-schleicher-tour/",
+      "title": "Taschenlampenführung Schleicher-Tour",
+      "publisher": "Baum und Zeit",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official Schleicher-Tour variant of the flashlight tour confirms additional authorized paid guided dark tourism programming."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Beelitz-Heilst%C3%A4tten",
+      "title": "Beelitz-Heilstätten – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history of the Beelitz-Heilstätten complex as a tuberculosis sanatorium from 1898 and its uses as a military hospital in both World Wars and by Soviet forces."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic coverage confirming public awareness and heritage significance of Beelitz-Heilstätten."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://beelitz.de/events/beelitz-heilstaetten-alive/",
+      "title": "Beelitz-Heilstätten Alive – Beelitz",
+      "publisher": "Stadt Beelitz",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Municipal events listing for Beelitz-Heilstätten Alive event confirms third-party authorized public programming at the complex."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Municipal coverage of public events at Beelitz-Heilstätten."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

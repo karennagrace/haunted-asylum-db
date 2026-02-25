@@ -1,0 +1,127 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "J Ward",
+    "official_site_url": "https://www.jward.org.au",
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Ararat",
+    "address": "6 Vincent St, Ararat VIC 3377",
+    "notes": "Former Her Majesty's Prison Ararat (gaol), subsequently used from 1886 to house the criminally insane as J Ward, part of the Ararat Lunatic Asylum / Aradale precinct. Now operates as a heritage museum with regular day tours and occasional night/ghost programming. More museum-oriented than haunted-attraction in character, but still fits dark programming criteria with crime and asylum framing. Situated within walking distance of Aradale."
+  },
+  "aliases": [
+    "J Ward Lunatic Asylum",
+    "Her Majesty's Prison Ararat",
+    "Ararat Gaol",
+    "Ararat Old Gaol"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.jward.org.au/",
+      "title": "J Ward Museum",
+      "publisher": "J Ward Museum",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active heritage museum and tour operation at the former J Ward criminally insane facility."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.jward.org.au/book-your-visit/",
+      "title": "Book Your Visit",
+      "publisher": "J Ward Museum",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official booking page confirms paid public access to day tours at J Ward."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.jward.org.au/venue-hire-events/",
+      "title": "Venue Hire and Events",
+      "publisher": "J Ward Museum",
+      "published_date": null,
+      "official_category": "tour_event",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official venue hire and events page confirms additional authorized programming including night events at J Ward."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/J_Ward",
+      "title": "J Ward – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as Her Majesty's Prison Ararat and subsequent use as J Ward for the criminally insane from 1886."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic coverage confirming public awareness and heritage significance of J Ward."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.visitvictoria.com/regions/melbourne/things-to-do/tours/walking-tours/lantern-ghost-tours/j-ward-lunatic-asylum-ghost-tour",
+      "title": "J Ward Lunatic Asylum Ghost Tour – Visit Victoria",
+      "publisher": "Visit Victoria",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "State tourism board lists J Ward ghost tours as an authorized visitor product, confirming sanctioned public dark tourism access."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Victorian state tourism board coverage of J Ward as a heritage and paranormal tourism destination."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-add_captures.py — sync PDFs from the local captures folder to the database.
+add_captures.py — sync PDFs and screenshots from the local captures folder to the database.
 
 Usage:
     python scripts/add_captures.py --site trans-allegheny --date 2026-02-16
 
-For each PDF in Documents/PhD/Captures/<site>/<date>/, the script:
+For each PDF or PNG in Documents/PhD/Captures/<site>/<date>/, the script:
   1. Computes the SHA-256 hash
   2. Looks up the matching document via mapping.json in the site folder
      (if the file isn't mapped yet, shows available documents and asks you to assign it)
@@ -198,6 +198,13 @@ def main():
             print(f"  file_path   : {rel_path}")
 
             if args.dry_run:
+                with conn.cursor() as cur:
+                    cur.execute(
+                        "SELECT COUNT(*) FROM evidence_items WHERE document_id = %s AND capture_id IS NULL",
+                        (doc_id,)
+                    )
+                    ei_count = cur.fetchone()[0]
+                print(f"  Would link {ei_count} evidence_item(s)")
                 inserted += 1
                 continue
 
@@ -224,13 +231,23 @@ def main():
                 capture_id   = row[0]
                 was_inserted = row[1]
 
+                # Link evidence_items to this capture
+                cur.execute("""
+                    UPDATE evidence_items
+                    SET capture_id    = %s,
+                        evidence_date = %s
+                    WHERE document_id = %s
+                      AND capture_id IS NULL
+                """, (capture_id, args.date, doc_id))
+                ei_updated = cur.rowcount
+
             conn.commit()
 
             if was_inserted:
-                print(f"  INSERTED — capture_id: {capture_id}")
+                print(f"  INSERTED — capture_id: {capture_id}  ({ei_updated} evidence_item(s) linked)")
                 inserted += 1
             else:
-                print(f"  UPDATED  — capture_id: {capture_id}")
+                print(f"  UPDATED  — capture_id: {capture_id}  ({ei_updated} evidence_item(s) linked)")
                 updated += 1
 
     except Exception as e:

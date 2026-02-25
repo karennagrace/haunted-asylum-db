@@ -1,0 +1,151 @@
+{
+  "researcher_id": "36339282-36e1-41b8-ad8b-bba0fff72e64",
+  "site": {
+    "site_name": "Aradale Mental Hospital",
+    "official_site_url": "https://www.aradale.com.au",
+    "country": "AU",
+    "region": "Victoria",
+    "city": "Ararat",
+    "address": "1 Girdwood Parade, Ararat VIC 3377",
+    "notes": "Former Ararat Lunatic Asylum (opened 1867); one of Australia's largest and most intact historic asylum complexes. Housed patients for over a century before closure. Ghost tours are operated by Eerie Tours on site. Operator pages include extensive story text useful for rhetoric analysis but keep provenance clear. Good for cross-text comparison of ghost tour framing vs. disability history framing."
+  },
+  "aliases": [
+    "Ararat Lunatic Asylum",
+    "Aradale Lunatic Asylum",
+    "Aradale Hospital"
+  ],
+  "documents": [
+    {
+      "source": "official",
+      "url": "https://www.aradale.com.au/",
+      "title": "Aradale",
+      "publisher": "Aradale",
+      "published_date": null,
+      "official_category": "history_about",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R3",
+          "evidence_type": "r3_official_page",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official homepage confirms active tourism and events operation at the former Aradale Mental Hospital."
+        }
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.aradale.com.au/book-your-visit/",
+      "title": "Book Your Visit",
+      "publisher": "Aradale",
+      "published_date": null,
+      "official_category": "ticket_booking",
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Official booking page confirms paid public access to day tours and paranormal programming at Aradale."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.eerietours.com.au/tours/aradale-ghost-tour/",
+      "title": "Aradale Ghost Tour – Eerie Tours",
+      "publisher": "Eerie Tours",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_ticket_booking",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party tour operator Eerie Tours sells ticketed ghost tours at Aradale, confirming paid public paranormal access via partner operator."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://en.wikipedia.org/wiki/Aradale_Mental_Hospital",
+      "title": "Aradale Mental Hospital – Wikipedia",
+      "publisher": "Wikimedia Foundation",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Wikipedia article documents institutional history as the Ararat Lunatic Asylum from 1867 and subsequent psychiatric hospital operations."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Encyclopaedic third-party coverage confirming public awareness and heritage significance of Aradale Mental Hospital."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://www.visitgrampians.com.au/products/aradale-ghost-tour",
+      "title": "Aradale Ghost Tour – Visit Grampians",
+      "publisher": "Visit Grampians",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R2",
+          "evidence_type": "r2_authorization",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Regional tourism board lists Aradale ghost tours as an authorized visitor product, confirming sanctioned public access."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party tourism board coverage of Aradale as a heritage and paranormal tourism attraction."
+        }
+      ]
+    },
+    {
+      "source": "third_party",
+      "url": "https://mainlymuseums.com/post/310/aradale-asylum/",
+      "title": "Aradale Asylum – Mainly Museums",
+      "publisher": "Mainly Museums",
+      "published_date": null,
+      "official_category": null,
+      "captures": [],
+      "evidence": [
+        {
+          "rule": "R1",
+          "evidence_type": "r1_institution_history",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Museum aggregator article documents institutional history and heritage context of the Aradale asylum complex."
+        },
+        {
+          "rule": "R3",
+          "evidence_type": "r3_third_party",
+          "evidence_date": null,
+          "access_date": "2026-02-25",
+          "description": "Third-party heritage coverage of Aradale Asylum."
+        }
+      ]
+    }
+  ],
+  "tv_episodes": [],
+  "youtube_videos": [],
+  "review_profiles": []
+}
